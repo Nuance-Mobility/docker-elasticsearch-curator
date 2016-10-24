@@ -1,5 +1,5 @@
-FROM        nuancemobility/ubuntu-base:14.04
-MAINTAINER  Brice Argenson <brice.argenson@nuance.com>
+FROM        nuancemobility/ubuntu-base:16.10
+MAINTAINER  sspcm <mobility-sspcm@nuance.com>
 
 COPY        elasticsearch-curator.py    /etc/cron.hourly/
 
